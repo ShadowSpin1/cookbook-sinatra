@@ -1,0 +1,11 @@
+<p> Here's your recipes! </p>
+
+<ul>
+  <% @recipes.each do |recipe| %>
+    <li>
+      <%= recipe %>
+    </li>
+  <% end %>
+</ul>
+
+<a href = "http://localhost:4567/new"> Create a new recipe! </a>
